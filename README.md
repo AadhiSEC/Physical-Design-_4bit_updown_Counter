@@ -68,10 +68,14 @@ In order to add any of the objects, make a right click on the corresponding labe
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
+![WhatsApp Image 2025-11-14 at 08 30 08](https://github.com/user-attachments/assets/5baa4ec7-e3ed-4237-84f8-35bf01b6d66c)
+
 
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+![WhatsApp Image 2025-11-14 at 08 30 09](https://github.com/user-attachments/assets/dfb36ef8-4ee9-418c-81d1-1453ddfdcbe9)
+
 
 ### Fig.2 Add fast Library set
 
@@ -80,18 +84,28 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+![WhatsApp Image 2025-11-14 at 08 30 10](https://github.com/user-attachments/assets/222ba477-a506-4f2a-a6b1-9a37f8131798)
+
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+![WhatsApp Image 2025-11-14 at 08 30 10 (1)](https://github.com/user-attachments/assets/a820b1ed-811b-47fe-a0cc-3cadf72e72e8)
+![WhatsApp Image 2025-11-14 at 08 30 10 (2)](https://github.com/user-attachments/assets/cfd3b45e-9953-4142-b6a1-c9aef618efbb)
+
+
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+![WhatsApp Image 2025-11-14 at 08 30 11](https://github.com/user-attachments/assets/58a70553-e6a1-4127-872d-b557729771e0)
+
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+![WhatsApp Image 2025-11-14 at 08 30 11 (1)](https://github.com/user-attachments/assets/b1d8fb6d-5b37-42b7-8ed1-e9d7e7a1bd4b)
+
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -106,6 +120,8 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+![WhatsApp Image 2025-11-14 at 08 30 12](https://github.com/user-attachments/assets/af93fa16-5ce1-4993-b37e-07b96a72e104)
+
 
 ### Fig.8 Core area
 
@@ -126,6 +142,8 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+![WhatsApp Image 2025-11-14 at 08 30 12 (1)](https://github.com/user-attachments/assets/f0281583-631d-4d17-bd5d-00df6c3dcf1c)
+
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,6 +188,8 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+![WhatsApp Image 2025-11-14 at 08 30 13](https://github.com/user-attachments/assets/fd64f400-deb7-4b1a-9c37-6d2c4f45c5eb)
+
 
 ### Fig.10 Power plan 
 
@@ -182,6 +202,11 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+![WhatsApp Image 2025-11-14 at 08 30 13 (1)](https://github.com/user-attachments/assets/a4509031-38a6-4e11-9fc2-624c899098ff)
+![WhatsApp Image 2025-11-14 at 08 30 13 (2)](https://github.com/user-attachments/assets/2fd23ab8-a4ff-4c06-b581-a533223bdc4f)
+
+
+
 
 ### Fig.11 Placement of standard Cells 
 
